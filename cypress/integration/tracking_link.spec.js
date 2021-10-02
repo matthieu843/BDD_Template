@@ -8,7 +8,7 @@ it('myFirstTest_displayLOGO', () => {
     cy.get('img#logo').should('be.visible')
 })
 
-it.skip('myFirstTest_displayLOGO', () => {
+xit('myFirstTest_displayLOGO', () => {
     cy.get('img#logo').should('be.present')
 })
     
